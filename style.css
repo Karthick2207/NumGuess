@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+body {
+    background-color: palegoldenrod;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.logo {
+    font-size: 42px;
+    font-weight: 600;
+    padding: 15px;
+}
+.button {
+    background-color: skyblue;
+    color: aliceblue;
+    height: 70px;
+    width: 180px;
+    padding: 12px 25px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: brown;
+    color: burlywood;
+    transform: scale(1.05);
+}
+.input {
+    width: 180px;
+    height: 50px; 
+    text-align: center;
+    font-size: 1.3em;
+    border: 2px solid #333;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+#input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+#submit {
+    background-color: skyblue;
+    color: aliceblue;
+    height: 50px; 
+    width: 130px;
+    padding: 8px 15px;
+    text-align: center;
+    font-size: 1.2em; 
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+#submit:hover {
+    background-color: brown;
+    color: burlywood;
+    transform: scale(1.05);
+}
+#message {
+    display: none;
+    font-size: 1.2em; 
+    font-weight: 500;
+    background-color: mediumorchid;
+    color: rgb(225, 211, 211);
+    padding: 5px 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+#lives-text {
+    font-size: 1.8em;
+    font-weight: 500;
+    color: rgb(38, 128, 0);
+    text-align: center;
+    margin-top: 10px;
+}
+h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
